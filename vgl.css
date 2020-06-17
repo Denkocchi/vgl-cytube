@@ -1,0 +1,113 @@
+.username::before{          background:url('https://implyingrigged.info/ts/cytube/emotes/hat.gif');}
+.username::before{          background:url('https://cdn.discordapp.com/attachments/214033499814887425/445004747989057546/clover_logo_2.png');}
+
+.username::before{
+	content:"AA";
+	background-size:16px !important;
+background-repeat:no-repeat !important;
+color:rgba(0,0,0,0);
+}
+
+
+#drinkcount, #modflair, #footer, #videowrap-header, #userlist, .server-whisper{
+	display:none;
+}
+
+.profile-box{
+left:0 !important;
+}
+
+/*Images and Text*/
+#messagebuffer img,
+#messagebuffer video{
+	max-width:200px;
+	max-height:200px;
+}
+.channel-emote{
+	Max-width:25px;
+	Max-height:25px!important;
+}
+.vidchat{
+position:absolute;
+    color:white;
+    font-size: 20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 2000px !important;
+    top: 0px;
+    right: 0px;
+}
+.vidchat img{
+	max-height:100px;
+	max-width:100px;
+	
+}
+.username{
+	color:#117743;
+}
+select{
+	color:black
+}
+.anon::after{
+	content:"Anonymous: ";
+	font-size:14px;
+}
+.anon{
+	font-size:0px;
+}
+option{
+	color:black;
+	background:white;
+}
+.imgay {
+    color: hsl(206,87%,49%)!important;
+    text-shadow: 2px 2px 2px #000;
+}
+.imgay::before {
+    content: "&";
+    color: grey;
+}
+
+
+/*Other bullshit*/
+body{    background: linear-gradient(#272b30,#1c293a) fixed;}
+#pollwrap{right:0;width:calc(100% - 500px);min-width:500px;position:absolute;top:0;z-index:10;background:rgba(28,41,58,0.75);}
+#pollwrap h3{display:inline;margin:0;}
+#pollwrap .option{display:inline;margin-left:10px;}
+#pollwrap .well{padding:0;margin:5px;border:0;background:none;}
+#nav-collapsible{background-color:rgba(40,42,46,0.9);height:25px!important;}
+.form-control, #login{height:auto;padding:0 6px;}
+#loginform{margin-top:0;margin-bottom:0;}
+#videowrap{max-height:100%;width:calc(100% - 34rem);padding:0;margin:0;}
+#chatwrap{float:right;width:34rem;height:calc(100% - 110px);padding:0;margin:0;}
+#mainpage{height:100%;}
+#mainpage{padding-top:25px;}
+#rightcontrols{padding-right:0;width:50%;}
+#wrap{padding:0;}
+#chatline{padding:6px;}
+.navbar-brand{height:auto;}
+.drink{border:none;margin:0;padding:0;}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a, #logoutform, #logout{color:#81A2BE;text-shadow:none;padding:0 10px;margin:0;}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav>li>a:hover{color:#d00;background:none;cursor:pointer;}
+.navbar-header{height:25px;}
+.navbar{min-height:0;box-shadow: -5px 1px 10px rgba(0, 0, 0, 0.20);border:none;}
+.profile-box{left:0 !important;}
+
+
+/*>Phoneposters*/
+@media only screen and (max-width: 600px) {
+	#videowrap{
+		width:100%;
+		position:static;
+		display:inline-block;
+	}
+	#chatwrap{
+		width:100%;
+		position:static;
+		display:inline-block;
+		float:left;
+	}
+	#nicobtn,#btn_anon {
+        Display:none
+    }
+	#nav-collapsible{height:auto!important;}
+}
